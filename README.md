@@ -26,16 +26,18 @@ La aplicación permite explorar los personajes y episodios de *Rick and Morty*. 
 
 Sigue estos pasos para ejecutar el proyecto localmente:
 
-### 1. Clonar el repositorio
+1. Clona el repositorio:  
+   ```bash
+   git clone https://github.com/GianSandoval5/rick_and_morty_app.git
 
-```bash
-git clone https://github.com/GianSandoval5/rick_and_morty_app.git
+2. Navega al directorio del proyecto:
+   ```bash
+   cd flutter_ml_kit
 
-```bash
-cd rick_and_morty_app
+3. Instala dependencias
+   ```bash
+    flutter pub get
 
-```bash
-flutter pub get
-
-```bash
-flutter run
+4. Ejecuta la aplicación en un dispositivo físico o emulador:
+   ```bash
+    flutter run
